@@ -1,0 +1,240 @@
+/*Font settings*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(12px + 1vw);
+}    
+
+h2 {
+    font-family: 'Handlee', cursive;
+    color: #e2b619;
+    text-shadow: 0.5px 0.5px 1px #9c801c;			
+    border: 0px;
+    text-align: center;
+    margin-top: 1.15em;
+}
+
+hr {
+    height:2px;
+    border-width:0;
+    color: #e2b619;
+    background-color: #e2b619;
+}
+
+/*Nav Panel*/
+    /*Logo Image*/
+            .logo {
+                width: 12.5%;
+                min-width: 90px;
+                max-width: 120px;
+                position: fixed;
+                border-radius: 50%;
+                left: 1.5%;
+                top: 1%;
+                margin: 8px;
+                z-index: 99;
+            }
+
+            div.top-nav {
+                width: 99%;
+                position: fixed;
+                top: 0px;
+                background-color: #FEFEFE;
+                z-index: 98;
+            }
+            
+            /*Page Links*/
+            ul.top-nav {
+                list-style-type: none;
+                display: flex;
+                align-content: row;
+                padding: 30px, 0px;
+                margin-left: 10%;
+                /*eventually add if or coding for min/max ability*/
+            }
+                /*Link formating*/
+                li.top-nav a {
+                        color: black;
+                        text-decoration: none;
+                        border-top: 8px solid transparent;
+                        padding: 8px;
+                        gap: 8px;
+                    }
+                li.top-nav a:hover {
+                        cursor:pointer;
+                        border-top: 8px solid #e2b619;
+                    }
+
+            /*Search Bar*/
+            .wrapper {
+                position: absolute;
+                top: 16px;
+                right: 64px;
+                display: flex;
+                width: 18%;
+                min-width: 145px;
+            }
+                .search {
+                    align-self: center;
+                    border: 1px solid grey;
+                    border-radius: 50px;
+                    height: 28px;
+                    width: 100%;
+                    padding: 2px 2px 2px 12px;
+                    outline: 0;
+                    background-color: lightgray;
+                }
+                .search:hover, .search:focus{
+                    border: 1.5px solid #e2b619;
+                    background-color: white;
+                    cursor: text;
+                }
+            /*
+                .clear-icon {
+                    position: absolute;
+                    align-self: center;
+                    right: 38px;
+                    width: 16px;
+                    cursor: pointer;
+                    visibility: hidden;
+                }
+            */
+                .search-icon {
+                    position: absolute;
+                    align-self: center;
+                    right: 10px;
+                    width: 24px;
+                    cursor: pointer;
+            /*eventually add better postioning for cart and search bar*/
+            }
+            
+            /*Cart*/
+            .cart {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                width: 30px;
+                height: 30px;
+                margin: 8px;
+                background: url("../../resources/images/cart.png") no-repeat center;
+            }
+            .cart:hover {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                width: 30px;
+                height: 30px;
+                margin: 8px;
+                background: url("../../resources/images/carthover.png") no-repeat center;
+                cursor:pointer;
+            }
+    
+/*Banner*/
+.banner {
+    padding-top: 2em;
+    display: block;
+    align-self: center;
+    margin: auto;
+    width: 99%;
+}
+
+/*Table*/
+table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    th, td {
+        padding: 8px;
+    }
+    td > img {
+            width: 30vw;
+    }
+
+/*About*/
+div.about {
+    background: linear-gradient(45deg, 
+        rgba(42, 99, 11, 0.75) 20%,
+        rgba(77,172,25,0.75) 55%,
+        rgba(163, 232, 51, 0.75) 90%);
+    border-radius: 16px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    padding: 0.5em 1em;
+}
+    img.about {
+        float: left;
+        border-radius: 16px;
+        margin: 1.15em 1em 0.5em 0em;
+        width: 34%;
+        max-width: 375px;
+        overflow: auto;
+        /*center better eventually*/
+    }
+    
+.tiktok-embed {
+    z-index: -1;
+}
+
+/*Contact*/
+form > input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #4dac19;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #ffffff90;
+}
+
+form > input[type=text]:hover, input[type=email]:hover, textarea:hover, form > input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    border: 1.5px solid #808080;
+    background-color: white;
+    cursor: text;
+}
+
+input[type=submit] {
+    background-color: #4dac19;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #4dac19;
+}
+  
+.container {
+    border-radius: 5px;
+    background: linear-gradient(60deg, 
+        rgba(226,182,25,0.9) 37%, 
+        rgba(255,236,165,0.9) 89%);
+    padding: 20px;
+    margin: 1em;
+}
+
+/*Lower Nav*/
+    div.bottom-nav {
+        width: 99%;
+    }
+     ul.bottom-nav {
+        list-style-type: none;
+        padding-left: 16px;
+    }
+            li.bottom-nav a {
+                color: #4dac19;
+                text-decoration: none;
+            }
+            li.bottom-nav a:hover {
+                        cursor:pointer;
+                        color: #e2b619;
+            }
+    /*Copyright*/
+        p.copyright {
+            padding-left: 8px;
+            color: gray;
+        }
