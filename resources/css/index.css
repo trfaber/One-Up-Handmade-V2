@@ -220,11 +220,19 @@ input[type=submit]:hover {
 /*Lower Nav*/
     div.bottom-nav {
         width: 99%;
+        display: flex;
+        justify-content: space-between;
     }
      ul.bottom-nav {
         list-style-type: none;
         padding-left: 16px;
+        padding-right: 8px;
+        display: inline-block;
     }
+        li.bottom-nav {
+            width: -moz-fit-content;
+            width: fit-content;
+        }
             li.bottom-nav a {
                 color: #4dac19;
                 text-decoration: none;
@@ -233,8 +241,17 @@ input[type=submit]:hover {
                         cursor:pointer;
                         color: #e2b619;
             }
-    /*Copyright*/
-        p.copyright {
-            padding-left: 8px;
-            color: gray;
+        div.bottom-nav > div {
+            justify-items: right;
         }
+            span {
+                justify-items: right;
+            }
+                i {
+                    padding: 8px;
+                } 
+        /*Copyright*/
+            p.copyright {
+                padding-left: 8px;
+                color: gray;
+            }

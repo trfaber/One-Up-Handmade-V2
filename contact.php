@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!--Title of Website-->
         <title>One Up Handmade Shop</title>
@@ -77,11 +78,16 @@
                         <li class="bottom-nav"><a href="about.html">About</a></li>
                         <li class="bottom-nav"><a href="contact.html">Contact</a></li>
             </ul>
-        <!-- Copyright section with date at bottom right of page -->
+            <div>
+                <span>
+                    <i class="fa fa-facebook-f" style="font-size:24px;color:#e2b619;"></i>
+                    <i class="fa fa-instagram" style="font-size:24px;color:#e2b619;"></i>
+                </span>
+                <!-- Copyright section with date at bottom right of page -->
             <small><p class="copyright">
                 Webpage Designed by Taylor Faber
-            </p>
-        </small>
+            </p></small>
+            </div>
         </div>
     </body>
 
