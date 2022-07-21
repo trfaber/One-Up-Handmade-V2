@@ -102,6 +102,7 @@
             </div>
         </div>
     </section>    
+    <hr>
     
     <!--Bottom Nav-->
         <section class="bottom-nav">

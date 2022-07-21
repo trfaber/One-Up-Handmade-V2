@@ -157,25 +157,28 @@ hr {
         display: inline-flex;
         flex-direction: column;
         width: 25%;
-        margin: auto;
-        padding: 8px;
-        background-color:#c7741b90;
+        min-width: 175px;
+        margin-left: 16px;
+        padding: 16px;
+        border:2px solid #c7741b;
+        background-color: #aeaeae90;
     }
 
     div.gallery {
         display: inline-flex;
-        margin: auto;
         padding: 8px;
         justify-content: center;
+        flex-wrap: wrap;
     }
         div.item {
             margin: 8px;
-            border: 1px solid transparent;
-            width: 20%;
+            border: 2px solid transparent;
+            width: 22%;
+            min-width: 150px;
         }
         
             div.item:hover {
-                border: 1px solid #e2b619;
+                border: 2px solid #e2b619;
             }
             
             div.item img {
