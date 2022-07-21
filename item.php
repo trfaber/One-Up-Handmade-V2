@@ -20,10 +20,14 @@
     </head>
 
     <body>
-        <!-- Shop Logo -->
+        <!--<php?
+            
+        ?>-->
+    
+         <!-- Shop Logo -->
             <nav aria-label="Main">
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
-                    <div class="top-nav">
+                    <section class="top-nav">
                     <!--Nav Links-->
                         <ul class="top-nav">
                             <li class="top-nav"><a href="index.php">Home</a></li>
@@ -40,7 +44,7 @@
                     <!--Shopping Cart-->
                         <div class="cart" role="button" aria-label="Cart">   
                         </div>
-                    </div>
+                    </section>
             </nav>
         <br>
 
@@ -48,13 +52,13 @@
         
         
     <!--Bottom Nav-->
-        <div class="bottom-nav">
+        <section class="bottom-nav">
                 
             <ul class="bottom-nav">
-                        <li class="bottom-nav"><a href="index.php">Home</a></li>
-                        <li class="bottom-nav"><a href="index.php#shop">Shop</a></li>
-                        <li class="bottom-nav"><a href="about.php">About</a></li>
-                        <li class="bottom-nav"><a href="contact.php">Contact</a></li>
+                <li class="bottom-nav"><a href="index.php">Home</a></li>
+                <li class="bottom-nav"><a href="index.php#shop">Shop</a></li>
+                <li class="bottom-nav"><a href="about.php">About</a></li>
+                <li class="bottom-nav"><a href="contact.php">Contact</a></li>
             </ul>
             <div>
             <!-- Social Icons -->
@@ -62,13 +66,13 @@
                 <i class="fa-brands fa-instagram fa-fw" style="font-size:2em;color:#4dac19;"></i>
                 <i class="fa-brands fa-tiktok fa-fw" style="font-size:2em;color:#4dac19;"></i>
             </div>
-        </div>
-                <!-- Copyright section with date at bottom right of page -->
-            <small>
-                <p class="copyright">
-                    Webpage Designed by Taylor Faber
-                </p>
-            </small>
+        </section>
+        <!-- Copyright section with date at bottom right of page -->
+        <small>
+            <p class="copyright">
+                Webpage Designed by Taylor Faber
+            </p>
+        </small>
     </body>
 
 </html>

@@ -20,16 +20,15 @@
     </head>
 
     <body>
-        <php?
+        <!--<php?
             
-        ?>
+        ?>-->
 
-        <!-- Shop Logo -->
+         <!-- Shop Logo -->
             <nav aria-label="Main">
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
-                    
-                    <div class="top-nav">
-                        <!--Nav Links-->
+                    <section class="top-nav">
+                    <!--Nav Links-->
                         <ul class="top-nav">
                             <li class="top-nav"><a href="index.php">Home</a></li>
                             <li class="top-nav"><a href="index.php#shop">Shop</a></li>
@@ -39,13 +38,13 @@
                         <!--Search bar-->
                         <div class="wrapper">
                             <input class="search" type="text" placeholder="Find Cool Stuff" >
-                            <!--<img class="clear-icon" src="./resources/images/clear.png" alt="search"> -->
+                <!-- <img class="clear-icon" src="./resources/images/clear.png" alt="search"> -->
                             <img class="search-icon" src="./resources/images/search.png" alt="search">
                         </div>
-                        <!--Shopping Cart-->
+                    <!--Shopping Cart-->
                         <div class="cart" role="button" aria-label="Cart">   
                         </div>
-                    </div>
+                    </section>
             </nav>
         <br>
 
@@ -66,13 +65,13 @@
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@oneuphandmade/video/7108518352494071082" data-video-id="7108518352494071082" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@oneuphandmade" href="https://www.tiktok.com/@oneuphandmade">@oneuphandmade</a> I thought it was Monday and had a whole plan, so I did the plan even tho it was Sunday. Each of these rompers is going with me to Geek Craft Expo first! Profits from them will get donated to the Marsha P Johnson Institute regardless. 💁🏼‍♀️💁🏼‍♀️ <a title="sewing" target="_blank" href="https://www.tiktok.com/tag/sewing">#sewing</a> <a title="sewingtiktok" target="_blank" href="https://www.tiktok.com/tag/sewingtiktok">#sewingtiktok</a> <a title="handmade" target="_blank" href="https://www.tiktok.com/tag/handmade">#handmade</a> <a title="rompers" target="_blank" href="https://www.tiktok.com/tag/rompers">#rompers</a> <a title="customfabric" target="_blank" href="https://www.tiktok.com/tag/customfabric">#customfabric</a> <a title="smallbusiness" target="_blank" href="https://www.tiktok.com/tag/smallbusiness">#smallbusiness</a> <a title="harrypotter" target="_blank" href="https://www.tiktok.com/tag/harrypotter">#harrypotter</a> <a title="hogwarts" target="_blank" href="https://www.tiktok.com/tag/hogwarts">#hogwarts</a> <a title="nerdyfashion" target="_blank" href="https://www.tiktok.com/tag/nerdyfashion">#nerdyfashion</a> <a target="_blank" title="♬ Harry Potter Fantasy Magic School(1007285) - Hamo" href="https://www.tiktok.com/music/Harry-Potter-Fantasy-Magic-School-1007285-6954386331376846850">♬ Harry Potter Fantasy Magic School(1007285) - Hamo</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
     <!--Bottom Nav-->
-       <div class="bottom-nav">
-              
-       <ul class="bottom-nav">
-                        <li class="bottom-nav"><a href="index.php">Home</a></li>
-                        <li class="bottom-nav"><a href="index.php#shop">Shop</a></li>
-                        <li class="bottom-nav"><a href="about.php">About</a></li>
-                        <li class="bottom-nav"><a href="contact.php">Contact</a></li>
+        <section class="bottom-nav">
+                
+            <ul class="bottom-nav">
+                <li class="bottom-nav"><a href="index.php">Home</a></li>
+                <li class="bottom-nav"><a href="index.php#shop">Shop</a></li>                        
+                <li class="bottom-nav"><a href="about.php">About</a></li>
+                <li class="bottom-nav"><a href="contact.php">Contact</a></li>
             </ul>
             <div>
             <!-- Social Icons -->
@@ -80,13 +79,13 @@
                 <i class="fa-brands fa-instagram fa-fw" style="font-size:2em;color:#4dac19;"></i>
                 <i class="fa-brands fa-tiktok fa-fw" style="font-size:2em;color:#4dac19;"></i>
             </div>
-        </div>
-                <!-- Copyright section with date at bottom right of page -->
-            <small>
-                <p class="copyright">
-                    Webpage Designed by Taylor Faber
-                </p>
-            </small>
+        </section>
+        <!-- Copyright section with date at bottom right of page -->
+        <small>
+            <p class="copyright">
+                Webpage Designed by Taylor Faber
+            </p>
+        </small>
     </body>
 
 </html>

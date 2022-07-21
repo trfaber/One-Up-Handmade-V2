@@ -4,7 +4,7 @@ body {
     font-size: calc(12px + 1vw);
 }    
 
-h2 {
+h2, h3 {
     font-family: 'Handlee', cursive;
     color: #e2b619;
     text-shadow: 0.5px 0.5px 1px #9c801c;			
@@ -34,7 +34,7 @@ hr {
                 z-index: 99;
     }
 
-        div.top-nav {
+        section.top-nav {
                 width: 99%;
                 position: fixed;
                 top: 0px;
@@ -149,6 +149,45 @@ hr {
                 width: 30vw;
         }
 
+    /*shop*/
+    section {
+        display: flex;
+    }
+    div.catagories {
+        display: inline-flex;
+        flex-direction: column;
+        width: 25%;
+        margin: auto;
+        padding: 8px;
+        background-color:#c7741b90;
+    }
+
+    div.gallery {
+        display: inline-flex;
+        margin: auto;
+        padding: 8px;
+        justify-content: center;
+    }
+        div.item {
+            margin: 8px;
+            border: 1px solid transparent;
+            width: 20%;
+        }
+        
+            div.item:hover {
+                border: 1px solid #e2b619;
+            }
+            
+            div.item img {
+                width: 100%;
+                height: auto;
+            }
+            
+            div.listing {
+                padding: 15px;
+                text-align: center;
+            }
+
 /*About*/
     div.about {
         background: linear-gradient(45deg, 
@@ -226,7 +265,7 @@ hr {
     /*Join/like/follow social pages*/
 
 /*Lower Nav*/
-    div.bottom-nav {
+    section.bottom-nav {
         width: 99%;
         display: flex;
         justify-content: space-between;
@@ -250,7 +289,7 @@ hr {
                             color: #e2b619;
                 }
         /*social links*/
-        div.bottom-nav > div {
+        section.bottom-nav > div {
                 display: flex;
                 align-items: flex-end;
         }
