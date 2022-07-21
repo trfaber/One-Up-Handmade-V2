@@ -68,11 +68,11 @@
     <!--Bottom Nav-->
        <div class="bottom-nav">
               
-            <ul class="bottom-nav">
-                        <li class="bottom-nav"><a href="index.html">Home</a></li>
-                        <li class="bottom-nav"><a href="index.html#shop">Shop</a></li>
-                        <li class="bottom-nav"><a href="about.html">About</a></li>
-                        <li class="bottom-nav"><a href="contact.html">Contact</a></li>
+       <ul class="bottom-nav">
+                        <li class="bottom-nav"><a href="index.php">Home</a></li>
+                        <li class="bottom-nav"><a href="index.php#shop">Shop</a></li>
+                        <li class="bottom-nav"><a href="about.php">About</a></li>
+                        <li class="bottom-nav"><a href="contact.php">Contact</a></li>
             </ul>
             <div>
             <!-- Social Icons -->

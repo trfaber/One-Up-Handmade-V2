@@ -22,7 +22,7 @@ hr {
 
 /*Nav Panel*/
     /*Logo Image*/
-            .logo {
+    .logo {
                 width: 12.5%;
                 min-width: 90px;
                 max-width: 120px;
@@ -32,15 +32,15 @@ hr {
                 top: 1%;
                 margin: 8px;
                 z-index: 99;
-            }
+    }
 
-            div.top-nav {
+        div.top-nav {
                 width: 99%;
                 position: fixed;
                 top: 0px;
                 background-color: #FEFEFE;
                 z-index: 98;
-            }
+        }
             
             /*Page Links*/
             ul.top-nav {
@@ -128,94 +128,102 @@ hr {
                 cursor:pointer;
             }
     
-/*Banner*/
-.banner {
-    padding-top: 2em;
-    display: block;
-    align-self: center;
-    margin: auto;
-    width: 99%;
-}
+/*Main*/
+    .banner {
+        padding-top: 2em;
+        display: block;
+        align-self: center;
+        margin: auto;
+        width: 99%;
+    }
 
-/*Table*/
-table.center {
-        margin-left: auto;
-        margin-right: auto;
+    /*Table*/
+    table.center {
+            margin-left: auto;
+            margin-right: auto;
     }
-    th, td {
-        padding: 8px;
-    }
-    td > img {
-            width: 30vw;
-    }
+        th, td {
+            padding: 8px;
+        }
+        td > img {
+                width: 30vw;
+        }
 
 /*About*/
-div.about {
-    background: linear-gradient(45deg, 
-        rgba(42, 99, 11, 0.75) 20%,
-        rgba(77,172,25,0.75) 55%,
-        rgba(163, 232, 51, 0.75) 90%);
-    border-radius: 16px;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 85%;
-    padding: 0.5em 1em;
-}
-    img.about {
-        float: left;
+    div.about {
+        background: linear-gradient(45deg, 
+            rgba(42, 99, 11, 0.75) 20%,
+            rgba(77,172,25,0.75) 55%,
+            rgba(163, 232, 51, 0.75) 90%);
         border-radius: 16px;
-        margin: 1.15em 1em 0.5em 0em;
-        width: 34%;
-        max-width: 375px;
-        overflow: auto;
-        /*center better eventually*/
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 85%;
+        padding: 0.5em 1em;
     }
-    
-.tiktok-embed {
-    z-index: -1;
-}
+        img.about {
+            float: left;
+            border-radius: 16px;
+            margin: 1.15em 1em 0.5em 0em;
+            width: 34%;
+            max-width: 375px;
+            overflow: auto;
+            /*center better eventually*/
+        }
+        
+    .tiktok-embed {
+        z-index: -1;
+    }
 
 /*Contact*/
-form > input[type=text], input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #4dac19;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    background-color: #ffffff90;
-}
+    /*Custom order form*/
+    form > input[type=text], input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #4dac19;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        background-color: #ffffff90;
+    }
 
-form > input[type=text]:hover, input[type=email]:hover, textarea:hover, form > input[type=text]:focus, input[type=email]:focus, textarea:focus {
-    border: 1.5px solid #808080;
-    background-color: white;
-    cursor: text;
-}
+    form > input[type=text]:hover, input[type=email]:hover, textarea:hover, form > input[type=text]:focus, input[type=email]:focus, textarea:focus {
+        border: 1.5px solid #808080;
+        background-color: white;
+        cursor: text;
+        box-sizing: border-box;
+    }
 
-input[type=submit] {
-    background-color: #4dac19;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-input[type=submit]:hover {
-    background-color: #4dac19;
-}
-  
-.container {
-    border-radius: 5px;
-    background: linear-gradient(60deg, 
-        rgba(226,182,25,0.9) 37%, 
-        rgba(255,236,165,0.9) 89%);
-    padding: 20px;
-    margin: 1em;
-}
+    input[type=submit] {
+        background-color: #4dac19;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #4dac19;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        border-radius: 5px;
+        background: linear-gradient(60deg, 
+            rgba(226,182,25,0.9) 37%, 
+            rgba(255,236,165,0.9) 89%);
+        padding: 20px;
+        margin: auto;
+        width: 50%;
+        min-width: 450px;
+    }
+
+    /*Join/like/follow social pages*/
 
 /*Lower Nav*/
     div.bottom-nav {
@@ -223,33 +231,35 @@ input[type=submit]:hover {
         display: flex;
         justify-content: space-between;
     }
-     ul.bottom-nav {
-        list-style-type: none;
-        padding-left: 16px;
-        padding-right: 8px;
-    }
-        li.bottom-nav {
-            width: -moz-fit-content;
-            width: fit-content;
+        /*Page Links*/
+        ul.bottom-nav {
+            list-style-type: none;
+            padding-left: 16px;
+            padding-right: 8px;
         }
-            li.bottom-nav a {
-                color: #4dac19;
-                text-decoration: none;
+            li.bottom-nav {
+                width: -moz-fit-content;
+                width: fit-content;
             }
-            li.bottom-nav a:hover {
-                        cursor:pointer;
-                        color: #e2b619;
-            }
+                li.bottom-nav a {
+                    color: #4dac19;
+                    text-decoration: none;
+                }
+                li.bottom-nav a:hover {
+                            cursor:pointer;
+                            color: #e2b619;
+                }
+        /*social links*/
         div.bottom-nav > div {
-            display: flex;
-            align-items: flex-end;
+                display: flex;
+                align-items: flex-end;
         }
-                i {
-                    padding: 8px;
-                    display: block;
-                } 
-        /*Copyright*/
-            p.copyright {
+            i {
+                        padding: 8px;
+                        display: block;
+            } 
+    /*Copyright*/
+        p.copyright {
                 color: gray;
                 text-align: right;
             }
