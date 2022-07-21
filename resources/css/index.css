@@ -227,7 +227,6 @@ input[type=submit]:hover {
         list-style-type: none;
         padding-left: 16px;
         padding-right: 8px;
-        display: inline-block;
     }
         li.bottom-nav {
             width: -moz-fit-content;
@@ -242,16 +241,15 @@ input[type=submit]:hover {
                         color: #e2b619;
             }
         div.bottom-nav > div {
-            justify-items: right;
+            display: flex;
+            align-items: flex-end;
         }
-            span {
-                justify-items: right;
-            }
                 i {
                     padding: 8px;
+                    display: block;
                 } 
         /*Copyright*/
             p.copyright {
-                padding-left: 8px;
                 color: gray;
+                text-align: right;
             }

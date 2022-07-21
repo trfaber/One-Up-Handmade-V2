@@ -6,8 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
         <!--Title of Website-->
         <title>One Up Handmade Shop</title>
     
@@ -49,6 +48,7 @@
                     </div>
             </nav>
         <br>
+
     <!--About-->
         <h2>About the Maker</h2>
             <div class="about">
@@ -60,11 +60,11 @@
                 <p>As a parent to a  little boy who loves dresses, you will find gender absent from my listings. I feel that clothes do not have a gender and everyone should be free to wear what they choose. I always try to refer to kiddos as they/them or as littles, nerdlings, geeks to be, etc. There are so many ways to refer to people other than their outside parts.</p>
                 <p style="text-align: center;">Let me know if there’s any way I can help you~!</p>
             </div>
-            
-            <!--<h2>How it's Made</h2>
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@oneuphandmade/video/7108518352494071082" data-video-id="7108518352494071082" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@oneuphandmade" href="https://www.tiktok.com/@oneuphandmade">@oneuphandmade</a> I thought it was Monday and had a whole plan, so I did the plan even tho it was Sunday. Each of these rompers is going with me to Geek Craft Expo first! Profits from them will get donated to the Marsha P Johnson Institute regardless. 💁🏼‍♀️💁🏼‍♀️ <a title="sewing" target="_blank" href="https://www.tiktok.com/tag/sewing">#sewing</a> <a title="sewingtiktok" target="_blank" href="https://www.tiktok.com/tag/sewingtiktok">#sewingtiktok</a> <a title="handmade" target="_blank" href="https://www.tiktok.com/tag/handmade">#handmade</a> <a title="rompers" target="_blank" href="https://www.tiktok.com/tag/rompers">#rompers</a> <a title="customfabric" target="_blank" href="https://www.tiktok.com/tag/customfabric">#customfabric</a> <a title="smallbusiness" target="_blank" href="https://www.tiktok.com/tag/smallbusiness">#smallbusiness</a> <a title="harrypotter" target="_blank" href="https://www.tiktok.com/tag/harrypotter">#harrypotter</a> <a title="hogwarts" target="_blank" href="https://www.tiktok.com/tag/hogwarts">#hogwarts</a> <a title="nerdyfashion" target="_blank" href="https://www.tiktok.com/tag/nerdyfashion">#nerdyfashion</a> <a target="_blank" title="♬ Harry Potter Fantasy Magic School(1007285) - Hamo" href="https://www.tiktok.com/music/Harry-Potter-Fantasy-Magic-School-1007285-6954386331376846850">♬ Harry Potter Fantasy Magic School(1007285) - Hamo</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-            -->
         <br>
+    <!--How it's made-->
+        <h2>How it's Made</h2>
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@oneuphandmade/video/7108518352494071082" data-video-id="7108518352494071082" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@oneuphandmade" href="https://www.tiktok.com/@oneuphandmade">@oneuphandmade</a> I thought it was Monday and had a whole plan, so I did the plan even tho it was Sunday. Each of these rompers is going with me to Geek Craft Expo first! Profits from them will get donated to the Marsha P Johnson Institute regardless. 💁🏼‍♀️💁🏼‍♀️ <a title="sewing" target="_blank" href="https://www.tiktok.com/tag/sewing">#sewing</a> <a title="sewingtiktok" target="_blank" href="https://www.tiktok.com/tag/sewingtiktok">#sewingtiktok</a> <a title="handmade" target="_blank" href="https://www.tiktok.com/tag/handmade">#handmade</a> <a title="rompers" target="_blank" href="https://www.tiktok.com/tag/rompers">#rompers</a> <a title="customfabric" target="_blank" href="https://www.tiktok.com/tag/customfabric">#customfabric</a> <a title="smallbusiness" target="_blank" href="https://www.tiktok.com/tag/smallbusiness">#smallbusiness</a> <a title="harrypotter" target="_blank" href="https://www.tiktok.com/tag/harrypotter">#harrypotter</a> <a title="hogwarts" target="_blank" href="https://www.tiktok.com/tag/hogwarts">#hogwarts</a> <a title="nerdyfashion" target="_blank" href="https://www.tiktok.com/tag/nerdyfashion">#nerdyfashion</a> <a target="_blank" title="♬ Harry Potter Fantasy Magic School(1007285) - Hamo" href="https://www.tiktok.com/music/Harry-Potter-Fantasy-Magic-School-1007285-6954386331376846850">♬ Harry Potter Fantasy Magic School(1007285) - Hamo</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
     <!--Bottom Nav-->
        <div class="bottom-nav">
               
@@ -75,16 +75,18 @@
                         <li class="bottom-nav"><a href="contact.html">Contact</a></li>
             </ul>
             <div>
-                <span>
-                    <i class="fa fa-facebook-f" style="font-size:24px;color:#e2b619;"></i>
-                    <i class="fa fa-instagram" style="font-size:24px;color:#e2b619;"></i>
-                </span>
-                <!-- Copyright section with date at bottom right of page -->
-            <small><p class="copyright">
-                Webpage Designed by Taylor Faber
-            </p></small>
+            <!-- Social Icons -->
+                <i class="fa-brands fa-facebook fa-fw" style="font-size:2em;color:#4dac19;"></i>
+                <i class="fa-brands fa-instagram fa-fw" style="font-size:2em;color:#4dac19;"></i>
+                <i class="fa-brands fa-tiktok fa-fw" style="font-size:2em;color:#4dac19;"></i>
             </div>
         </div>
+                <!-- Copyright section with date at bottom right of page -->
+            <small>
+                <p class="copyright">
+                    Webpage Designed by Taylor Faber
+                </p>
+            </small>
     </body>
 
 </html>
