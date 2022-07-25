@@ -73,37 +73,37 @@
             </ul>
         </div>
         <div class="gallery">
-            <div class="item">
-            <a target="_blank" href="item.php">
-                <img src="resources/images/sgromper.jpeg" alt="Studio Ghibli Dustball Romper" width="600" height="400">
+            <a href="item.php">
+                <div class="item">
+                    <img src="resources/images/sgromper.jpeg" alt="Studio Ghibli Dustball Romper" width="600" height="400">
+                    <div class="listing">Dustball Raid Romper</div>
+                </div>
             </a>
-            <div class="listing">Dustball Raid Romper</div>
-            </div>
 
-            <div class="item">
-            <a target="_blank" href="item.php">
-                <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites" width="600" height="400">
+            <a href="item.php">
+                <div class="item">
+                    <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites" width="600" height="400">
+                    <div class="listing">Moon Guardian Shorties</div>
+                </div>
             </a>
-            <div class="listing">Moon Guardian Shorties</div>
-            </div>
 
-            <div class="item">
-            <a target="_blank" href="item.php">
-                <img src="resources/images/togepifps.jpeg" alt="Togepi Dress" width="600" height="400">
+            <a href="item.php">
+                <div class="item">
+                    <img src="resources/images/togepifps.jpeg" alt="Togepi Dress" width="600" height="400">
+                    <div class="listing">Egg FPS Dress</div>
+                </div>
             </a>
-            <div class="listing">Egg FPS Dress</div>
-            </div>
 
-            <div class="item">
-            <a target="_blank" href="item.php">
-                <img src="resources/images/khshirt.jpeg" alt="Kingdom Hearts Tank" width="600" height="400">
+            <a href="item.php">
+                <div class="item">
+                    <img src="resources/images/khshirt.jpeg" alt="Kingdom Hearts Tank" width="600" height="400">
+                    <div class="listing">Heart Kingdom Adventurer Armor</div>
+                </div>
             </a>
-            <div class="listing">Heart Kingdom Adventurer Armor</div>
-            </div>
         </div>
     </section>    
     <hr>
-    
+
     <!--Bottom Nav-->
         <section class="bottom-nav">
                 
@@ -113,12 +113,20 @@
                 <li class="bottom-nav"><a href="about.php">About</a></li>
                 <li class="bottom-nav"><a href="contact.php">Contact</a></li>
             </ul>
-            <div>
-            <!-- Social Icons -->
-                <i class="fa-brands fa-facebook fa-fw" style="font-size:2em;color:#4dac19;"></i>
-                <i class="fa-brands fa-instagram fa-fw" style="font-size:2em;color:#4dac19;"></i>
-                <i class="fa-brands fa-tiktok fa-fw" style="font-size:2em;color:#4dac19;"></i>
-            </div>
+            <span>Follow us on social media!
+                <div class="social">
+                <!-- Social Icons -->
+                    <a href="https://www.facebook.com/oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-facebook fa-fw"></i>
+                    </a>
+                    <a href="https://www.instagram.com/oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-instagram fa-fw"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-tiktok fa-fw"></i>
+                    </a>
+                </div>
+            </span>
         </section>
         <!-- Copyright section at bottom right of page -->
         <small>

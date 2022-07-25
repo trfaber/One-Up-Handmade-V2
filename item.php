@@ -60,12 +60,20 @@
                 <li class="bottom-nav"><a href="about.php">About</a></li>
                 <li class="bottom-nav"><a href="contact.php">Contact</a></li>
             </ul>
-            <div>
-            <!-- Social Icons -->
-                <i class="fa-brands fa-facebook fa-fw" style="font-size:2em;color:#4dac19;"></i>
-                <i class="fa-brands fa-instagram fa-fw" style="font-size:2em;color:#4dac19;"></i>
-                <i class="fa-brands fa-tiktok fa-fw" style="font-size:2em;color:#4dac19;"></i>
-            </div>
+            <span>Follow us on social media!
+                <div class="social">
+                <!-- Social Icons -->
+                    <a href="https://www.facebook.com/oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-facebook fa-fw"></i>
+                    </a>
+                    <a href="https://www.instagram.com/oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-instagram fa-fw"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-tiktok fa-fw"></i>
+                    </a>
+                </div>
+            </span>
         </section>
         <!-- Copyright section with date at bottom right of page -->
         <small>

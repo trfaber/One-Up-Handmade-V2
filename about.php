@@ -60,9 +60,10 @@
                 <p style="text-align: center;">Let me know if there’s any way I can help you~!</p>
             </div>
         <br>
-    <!--How it's made-->
+    <!--How it's made
         <h2>How it's Made</h2>
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@oneuphandmade/video/7108518352494071082" data-video-id="7108518352494071082" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@oneuphandmade" href="https://www.tiktok.com/@oneuphandmade">@oneuphandmade</a> I thought it was Monday and had a whole plan, so I did the plan even tho it was Sunday. Each of these rompers is going with me to Geek Craft Expo first! Profits from them will get donated to the Marsha P Johnson Institute regardless. 💁🏼‍♀️💁🏼‍♀️ <a title="sewing" target="_blank" href="https://www.tiktok.com/tag/sewing">#sewing</a> <a title="sewingtiktok" target="_blank" href="https://www.tiktok.com/tag/sewingtiktok">#sewingtiktok</a> <a title="handmade" target="_blank" href="https://www.tiktok.com/tag/handmade">#handmade</a> <a title="rompers" target="_blank" href="https://www.tiktok.com/tag/rompers">#rompers</a> <a title="customfabric" target="_blank" href="https://www.tiktok.com/tag/customfabric">#customfabric</a> <a title="smallbusiness" target="_blank" href="https://www.tiktok.com/tag/smallbusiness">#smallbusiness</a> <a title="harrypotter" target="_blank" href="https://www.tiktok.com/tag/harrypotter">#harrypotter</a> <a title="hogwarts" target="_blank" href="https://www.tiktok.com/tag/hogwarts">#hogwarts</a> <a title="nerdyfashion" target="_blank" href="https://www.tiktok.com/tag/nerdyfashion">#nerdyfashion</a> <a target="_blank" title="♬ Harry Potter Fantasy Magic School(1007285) - Hamo" href="https://www.tiktok.com/music/Harry-Potter-Fantasy-Magic-School-1007285-6954386331376846850">♬ Harry Potter Fantasy Magic School(1007285) - Hamo</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+        <iframe src="https://www.tiktok.com/@oneuphandmade/video/7108518352494071082" width=60% min-width="450px">
+        </iframe>-->
 
     <!--Bottom Nav-->
         <section class="bottom-nav">
@@ -73,12 +74,20 @@
                 <li class="bottom-nav"><a href="about.php">About</a></li>
                 <li class="bottom-nav"><a href="contact.php">Contact</a></li>
             </ul>
-            <div>
-            <!-- Social Icons -->
-                <i class="fa-brands fa-facebook fa-fw" style="font-size:2em;color:#4dac19;"></i>
-                <i class="fa-brands fa-instagram fa-fw" style="font-size:2em;color:#4dac19;"></i>
-                <i class="fa-brands fa-tiktok fa-fw" style="font-size:2em;color:#4dac19;"></i>
-            </div>
+            <span>Follow us on social media!
+                <div class="social">
+                <!-- Social Icons -->
+                    <a href="https://www.facebook.com/oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-facebook fa-fw"></i>
+                    </a>
+                    <a href="https://www.instagram.com/oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-instagram fa-fw"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@oneuphandmade" target="_blank">
+                        <i class="fa-brands fa-tiktok fa-fw"></i>
+                    </a>
+                </div>
+            </span>
         </section>
         <!-- Copyright section with date at bottom right of page -->
         <small>
