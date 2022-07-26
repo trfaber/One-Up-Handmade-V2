@@ -185,15 +185,34 @@ hr {
                 border: 2px solid #e2b619;
             }
             
-            div.item img {
+            div.item > img {
                 width: 100%;
-                height: auto;
             }
-            
+
             div.listing {
                 padding: 15px;
                 text-align: center;
             }
+/*Item Page*/
+    section.item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 1.5em;
+        gap: 5%;
+    }
+        div.image {
+            display: inline-flex;
+            flex-direction: column;
+            justify-items: center;
+            width: 35%;
+            min-width: 350px;
+            padding: 16px;
+        }
+        section > form {
+            width: 40%;
+            padding: 8px;
+        }
 
 /*About*/
     div.about {

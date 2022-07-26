@@ -75,28 +75,28 @@
         <div class="gallery">
             <a href="item.php">
                 <div class="item">
-                    <img src="resources/images/sgromper.jpeg" alt="Studio Ghibli Dustball Romper" width="600" height="400">
+                    <img src="resources/images/sgromper.jpeg" alt="Studio Ghibli Dustball Romper">
                     <div class="listing">Dustball Raid Romper</div>
                 </div>
             </a>
 
             <a href="item.php">
                 <div class="item">
-                    <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites" width="600" height="400">
+                    <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
                     <div class="listing">Moon Guardian Shorties</div>
                 </div>
             </a>
 
             <a href="item.php">
                 <div class="item">
-                    <img src="resources/images/togepifps.jpeg" alt="Togepi Dress" width="600" height="400">
+                    <img src="resources/images/togepifps.jpeg" alt="Togepi Dress">
                     <div class="listing">Egg FPS Dress</div>
                 </div>
             </a>
 
             <a href="item.php">
                 <div class="item">
-                    <img src="resources/images/khshirt.jpeg" alt="Kingdom Hearts Tank" width="600" height="400">
+                    <img src="resources/images/khshirt.jpeg" alt="Kingdom Hearts Tank">
                     <div class="listing">Heart Kingdom Adventurer Armor</div>
                 </div>
             </a>

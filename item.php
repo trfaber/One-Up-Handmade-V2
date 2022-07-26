@@ -49,8 +49,17 @@
         <br>
 
     <!-- Item -->
+        <section class="item">
+            <div class="image">
+                <h3>Dustball Raid Romper</h3>
+                <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
+            </div>
+            <form>
+            </form>
         
-        
+        </section>
+        <hr>
+
     <!--Bottom Nav-->
         <section class="bottom-nav">
                 
