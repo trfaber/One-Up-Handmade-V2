@@ -53,21 +53,21 @@
 
      <div class="container">
         <form action="/action_page.php" method="post" autocomplete="on">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="email">Email</label>
-            <input type="email" id="email" email="email" placeholder="Your email address.." required>
-        
-            <label for="order">Custom Order Request</label>
-            <textarea id="order" name="request" 
+            <label for="fname">First Name</label><br>
+            <input class="custom" type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+            <label for="lname">Last Name</label><br>
+            <input class="custom" type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br>
+            <label for="email">Email</label><br>
+            <input class="custom" type="email" id="email" email="email" placeholder="Your email address.." required>
+            <br>
+            <label for="order">Custom Order Request</label><br>
+            <textarea class="custom" id="order" name="request" 
                 placeholder="Include some details about the item you are looking for and we will contact you.." 
                 style="height:200px" required>
             </textarea>
-        
+            <br>
             <input type="submit" value="Submit">
         </form>
      </div>

@@ -20,6 +20,26 @@ hr {
     background-color: #e2b619;
 }
 
+form {
+    font-size: 0.75em;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #4dac19;
+    color: white;
+    font-weight: 1em;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: #e2b619;
+    background-color: #4dac19;
+}
+
 /*Nav Panel*/
     /*Logo Image*/
     .logo {
@@ -198,6 +218,7 @@ hr {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-content: center;
         padding-top: 1.5em;
         gap: 5%;
     }
@@ -205,14 +226,29 @@ hr {
             display: inline-flex;
             flex-direction: column;
             justify-items: center;
-            width: 35%;
+            width: 40%;
             min-width: 350px;
             padding: 16px;
         }
-        section > form {
+
+        form.item {
+            align-self: center;
             width: 40%;
-            padding: 8px;
+            min-width: 350px;
         }
+
+            label.item {
+                font-family: 'Handlee', cursive;
+                font-size: 1em;
+            }
+            
+            input[type=radio] {
+                accent-color: #e2b619;
+            }
+            
+            input.item {
+                margin-left: 5%;
+            }
 
 /*About*/
     div.about {
@@ -243,41 +279,7 @@ hr {
 
 /*Contact*/
     /*Custom order form*/
-    form > input[type=text], input[type=email], textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #4dac19;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-        background-color: #ffffff90;
-    }
-
-    form > input[type=text]:hover, input[type=email]:hover, textarea:hover, form > input[type=text]:focus, input[type=email]:focus, textarea:focus {
-        border: 1.5px solid #808080;
-        background-color: white;
-        cursor: text;
-        box-sizing: border-box;
-    }
-
-    input[type=submit] {
-        background-color: #4dac19;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        box-sizing: border-box;
-    }
-    
-    input[type=submit]:hover {
-        background-color: #4dac19;
-        box-sizing: border-box;
-    }
-    
-    .container {
+    div.container {
         border-radius: 5px;
         background: linear-gradient(60deg, 
             rgba(226,182,25,0.9) 37%, 
@@ -287,6 +289,26 @@ hr {
         width: 50%;
         min-width: 450px;
     }
+        .custom {
+            align-self: center;
+            width: 100%;
+            padding: 8px;
+            margin: 2px;
+            border: 1px solid #4dac19;
+            border-radius: 4px;
+            background-color: #ffffff90;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .custom:hover, .custom:focus {
+            border: 1.5px solid #808080;
+            background-color: white;
+            cursor: text;
+        }
 
     /*Join/like/follow social pages*/
 

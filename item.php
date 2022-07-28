@@ -54,9 +54,41 @@
                 <h3>Dustball Raid Romper</h3>
                 <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
             </div>
-            <form>
-            </form>
-        
+            <form class="item">
+                <fieldset>
+                <label for="fabric" class="item">Fabric:</label><br>
+                <select id="fabric" name="fabric" required>
+                    <option value="">Sailor Moon</option>
+                    <option value="">Studio Ghibli Dustball</option>
+                    <option value="">Togepi</option>
+                    <option value="">Kingdom Hearts</option>
+                </select><br>
+                <label for="accent" class="item">Accent Fabric:</label>
+                <div id="accent">
+                    <input type="radio" id="fabric" name="fabric">
+                    <label for="shorts">Coordinating</label><br>
+                    <input type="radio" id="fabric" name="fabric">
+                    <label for="shorts">Contrasting</label>
+                </div>
+                    <label for="size" class="item">Size:</label><br>
+                <select id="size" name="size" required>
+                    <option value="3-12m">3-12m</option>
+                    <option value="12m-3T">12m-3T</option>
+                    <option value="3T-6Y">3T-6Y</option>
+                    <option value="6-9Y">6-9Y</option>
+                    <option value="9-12Y">9-12Y</option>         
+                </select><br>
+                <label for="length" class="item">Length:</label><br>
+                <div id="length">
+                    <input type="radio" id="shorts" name="length">
+                    <label for="shorts">Shorts</label><br>
+                    <input type="radio" id="bummies" name="length">
+                    <label for="bummies">Bummies</label>
+                </div>
+                </fieldset>
+                <br>
+                <input type="submit" class="item" value="Add to Cart">
+            </form>   
         </section>
         <hr>
 
