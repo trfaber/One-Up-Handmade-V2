@@ -20,9 +20,9 @@
     </head>
 
     <body>
-        <!--<php?
-            
-        ?>-->
+        <?php
+                       
+        ?>
 
          <!-- Shop Logo -->
             <nav aria-label="Main">

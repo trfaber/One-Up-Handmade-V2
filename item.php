@@ -11,7 +11,7 @@
         <title>One Up Handmade Shop</title>
     
         <!--Styles-->        
-        <link href="./resources/css/index.css" type="text/css" rel="stylesheet" media="screen and (min-width: 590px)">
+        <link href="./resources/css/index.css" type="text/css" rel="stylesheet" media="screen and (min-width: 600px)">
         <!-- alter mobile setting in future
             link href="./resources/css/mobile.css" type="text/css" rel="stylesheet" media="screen and (max-width: 600px)"
         -->
@@ -20,9 +20,9 @@
     </head>
 
     <body>
-        <!--<php?
-            
-        ?>-->
+        <?php
+                       
+        ?>
     
          <!-- Shop Logo -->
             <nav aria-label="Main">
@@ -51,13 +51,13 @@
     <!-- Item -->
         <section class="item">
             <div class="image">
-                <h3>Dustball Raid Romper</h3>
+                <h3>Shorties</h3>
                 <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
             </div>
             <form class="item">
                 <fieldset>
                 <label for="fabric" class="item">Fabric:</label><br>
-                <select id="fabric" name="fabric" required>
+                <select id="fabric" class="item" name="fabric" required>
                     <option value="">Sailor Moon</option>
                     <option value="">Studio Ghibli Dustball</option>
                     <option value="">Togepi</option>
@@ -71,7 +71,7 @@
                     <label for="shorts">Contrasting</label>
                 </div>
                     <label for="size" class="item">Size:</label><br>
-                <select id="size" name="size" required>
+                <select id="size" class="item" name="size" required>
                     <option value="3-12m">3-12m</option>
                     <option value="12m-3T">12m-3T</option>
                     <option value="3T-6Y">3T-6Y</option>
@@ -86,8 +86,7 @@
                     <label for="bummies">Bummies</label>
                 </div>
                 </fieldset>
-                <br>
-                <input type="submit" class="item" value="Add to Cart">
+                <input type="submit" value="Add to Cart">
             </form>   
         </section>
         <hr>

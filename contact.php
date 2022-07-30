@@ -20,9 +20,9 @@
     </head>
 
     <body>
-        <!--<php?
-            
-        ?>-->
+        <?php
+                       
+        ?>
             
         <!-- Shop Logo -->
             <nav aria-label="Main">
@@ -63,10 +63,7 @@
             <input class="custom" type="email" id="email" email="email" placeholder="Your email address.." required>
             <br>
             <label for="order">Custom Order Request</label><br>
-            <textarea class="custom" id="order" name="request" 
-                placeholder="Include some details about the item you are looking for and we will contact you.." 
-                style="height:200px" required>
-            </textarea>
+            <textarea class="custom" id="order" name="request" placeholder="Include some details about the item you are looking for and we will contact you.." style="height:200px" required></textarea>
             <br>
             <input type="submit" value="Submit">
         </form>
