@@ -42,8 +42,10 @@
                             <img class="search-icon" src="./resources/images/search.png" alt="search">
                         </div>
                     <!--Shopping Cart-->
-                        <div class="cart" role="button" aria-label="Cart">   
-                        </div>
+                        <a href="cart.php">
+                            <div class="cart" role="button" aria-label="Cart">   
+                            </div>
+                        </a>
                     </section>
             </nav>
         <br>
@@ -60,10 +62,19 @@
                 <p style="text-align: center;">Let me know if there’s any way I can help you~!</p>
             </div>
         <br>
-    <!--How it's made
+    <!--How it's made-->
         <h2>How it's Made</h2>
-        <iframe src="https://www.tiktok.com/@oneuphandmade/video/7108518352494071082" width=60% min-width="450px">
-        </iframe>-->
+            <div class="vid">
+                <iframe class="tiktok" src="https://www.tiktok.com/@oneuphandmade/video/7108518352494071082" width=60% min-width="450px">
+                </iframe>
+            </div>
+
+    <!--GWM How to/Why it's better-->
+        <h2>What is GWM Clothing?</h2>
+            <div class="gwm">
+                <p>GWM stands for grow-with-me, this means the clothing can be adjusted by either rolling bands to adjust torsos, legs, and, sleeves length or adjusting snaps to change strap and closures! This makes the clothing last so much longer and allows extra room for the best fit to keep your kiddo happy!</p>
+            </div>
+        
 
     <!--Bottom Nav-->
         <section class="bottom-nav">

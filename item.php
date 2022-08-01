@@ -42,8 +42,10 @@
                             <img class="search-icon" src="./resources/images/search.png" alt="search">
                         </div>
                     <!--Shopping Cart-->
-                        <div class="cart" role="button" aria-label="Cart">   
-                        </div>
+                        <a href="cart.php">
+                            <div class="cart" role="button" aria-label="Cart">   
+                            </div>
+                        </a>
                     </section>
             </nav>
         <br>
@@ -51,7 +53,7 @@
     <!-- Item -->
         <section class="item">
             <div class="image">
-                <h3>Shorties</h3>
+                <h3>Shortaloones</h3>
                 <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
             </div>
             <form class="item">
@@ -89,7 +91,14 @@
                 <input type="submit" value="Add to Cart">
             </form>   
         </section>
-        <hr>
+    <hr>
+    <!--Add Collapsible with java-->
+        <div>
+            <!--Description
+            Content
+            Legal stuff-->
+        </div>
+
 
     <!--Bottom Nav-->
         <section class="bottom-nav">

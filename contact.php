@@ -19,11 +19,7 @@
         
     </head>
 
-    <body>
-        <?php
-                       
-        ?>
-            
+    <body>    
         <!-- Shop Logo -->
             <nav aria-label="Main">
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
@@ -42,17 +38,48 @@
                             <img class="search-icon" src="./resources/images/search.png" alt="search">
                         </div>
                     <!--Shopping Cart-->
-                        <div class="cart" role="button" aria-label="Cart">   
-                        </div>
+                        <a href="cart.php">
+                            <div class="cart" role="button" aria-label="Cart">   
+                            </div>
+                        </a>
                     </section>
             </nav>
         <br>
 
      <!-- Contact -->
+        <?php /*
+            // define variables and set to empty values
+            $emailErr = $requestErr = "";
+            $email = $request = "";
+
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                if (empty($_POST["email"])) {
+                    $emailErr = "Email is required";
+                  } else {
+                    $email = test_input($_POST["email"]);
+                  }
+                    
+                  if (empty($_POST["request"])) {
+                    $requestErr = "Please include a few details about the item you are looking for.";
+                  } else {
+                    $request = test_input($_POST["request"]);
+                  }
+                make some type of and connection to activate submit
+            }
+
+            function test_input($data) {
+            $data = trim($data);
+            $data = stripslashes($data);
+            $data = htmlspecialchars($data);
+            return $data;
+            } */
+        ?>
+
      <h2>Contact Form</h2>
 
      <div class="container">
-        <form action="/action_page.php" method="post" autocomplete="on">
+        
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" autocomplete="on">
             <label for="fname">First Name</label><br>
             <input class="custom" type="text" id="fname" name="firstname" placeholder="Your name..">
             <br>
@@ -68,10 +95,23 @@
             <input type="submit" value="Submit">
         </form>
      </div>
+
+    <?php /*
+        submit code "<h2>Thank You for reaching out, we will contact you.</h2>";
+        */
+    ?>
     
      <!--Social details/buttons-->
-
-
+        <section class="joinus">
+            <div class="fb">
+                <h2>Join the VIP Facebook Group</h2>
+                <p>Stuff</p>
+            </div>
+            <div class="insta">
+                <h2>Check out Instagram for updates</h2>
+                <p>Stuff</p>
+            </div>
+        </section>
     <!--Bottom Nav-->
         <section class="bottom-nav">
                 
