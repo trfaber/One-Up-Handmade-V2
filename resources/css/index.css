@@ -76,7 +76,7 @@ input[type=submit]:hover {
                 width: fit-content;
                 align-content: row;
                 padding: 30px, 0px;
-                margin-left: 12%;
+                margin: 0.75em 0 1.25em 12%;
             }
                 /*Link formating*/
                 li.top-nav a {
@@ -381,55 +381,56 @@ input[type=submit]:hover {
             }
 
 /*Lower Nav*/
-    section.bottom-nav {
-        width: 99%;
-        display: flex;
-        justify-content: space-between;
+footer.bottom-nav {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+}
+    /*Page Links*/
+    ul.bottom-nav {
+        list-style-type: none;
+        padding-left: 16px;
+        padding-right: 8px;
     }
-        /*Page Links*/
-        ul.bottom-nav {
-            list-style-type: none;
-            padding-left: 16px;
-            padding-right: 8px;
+        li.bottom-nav {
+            width: -moz-fit-content;
+            width: fit-content;
         }
-            li.bottom-nav {
-                width: -moz-fit-content;
-                width: fit-content;
-            }
-                li.bottom-nav a {
-                    color: #4dac19;
-                    text-decoration: none;
-                }
-                li.bottom-nav a:hover {
-                            cursor:pointer;
-                            color: #e2b619;
-                }
-        /*social links*/
-        span {
-            color: #4dac19;
-            display: flex;
-            flex-direction: column;
-            align-self: flex-end;
-        }
-        div.social {
-            display: inline-flex;    
-            justify-content: right;
-            align-content: flex-end;
-        }
-            div.social > a {
-                font-size: 1.5em;
+            li.bottom-nav a {
                 color: #4dac19;
+                text-decoration: none;
             }
-            div.social > a:hover {
-                color: #e2b619;
-                cursor: pointer;
+            li.bottom-nav a:hover {
+                        cursor:pointer;
+                        color: #e2b619;
             }
-                .fa-brands {
-                    padding: 4px;
-                    display: block;
-                } 
-    /*Copyright*/
-        p.copyright {
-                color: gray;
-                text-align: right;
-            }
+    /*social links*/
+    span {
+        color: #4dac19;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+    div.social {
+        display: inline-flex;    
+        justify-content: right;
+        align-content: flex-end;
+    }
+        div.social > a {
+            font-size: 1.5em;
+            color: #4dac19;
+        }
+        div.social > a:hover {
+            color: #e2b619;
+            cursor: pointer;
+        }
+            .fa-brands {
+                padding: 4px;
+                display: block;
+            } 
+/*Copyright*/
+    p.copyright {
+            color: gray;
+            text-align: right;
+            margin: 0.25em;
+        }

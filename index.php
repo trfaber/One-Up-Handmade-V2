@@ -66,77 +66,74 @@
     <hr>
 
     <!--Shop-->
-    <section id=shop>
-        <div class="catagories">
-            <h3>Catagories</h3>
-            <ul>
-                <li>Item type</li>
-                <li>Print</li>
-                <li>Other</li>
-            </ul>
-        </div>
-        <div class="gallery">
-            <a href="item.php">
-                <div class="item">
-                    <img src="resources/images/sgromper.jpeg" alt="Studio Ghibli Dustball Romper">
-                    <div class="listing">Dustball Raid Romper</div>
-                </div>
-            </a>
+        <section id=shop>
+            <div class="catagories">
+                <h3>Catagories</h3>
+                <ul>
+                    <li>Item type</li>
+                    <li>Print</li>
+                    <li>Other</li>
+                </ul>
+            </div>
+            <div class="gallery">
+                <a href="item.php">
+                    <div class="item">
+                        <img src="resources/images/sgromper.jpeg" alt="Studio Ghibli Dustball Romper">
+                        <div class="listing">Dustball Raid Romper</div>
+                    </div>
+                </a>
 
-            <a href="item.php">
-                <div class="item">
-                    <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
-                    <div class="listing">Moon Guardian Shorties</div>
-                </div>
-            </a>
+                <a href="item.php">
+                    <div class="item">
+                        <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
+                        <div class="listing">Moon Guardian Shorties</div>
+                    </div>
+                </a>
 
-            <a href="item.php">
-                <div class="item">
-                    <img src="resources/images/togepifps.jpeg" alt="Togepi Dress">
-                    <div class="listing">Egg FPS Dress</div>
-                </div>
-            </a>
+                <a href="item.php">
+                    <div class="item">
+                        <img src="resources/images/togepifps.jpeg" alt="Togepi Dress">
+                        <div class="listing">Egg FPS Dress</div>
+                    </div>
+                </a>
 
-            <a href="item.php">
-                <div class="item">
-                    <img src="resources/images/khshirt.jpeg" alt="Kingdom Hearts Tank">
-                    <div class="listing">Heart Kingdom Adventurer Armor</div>
-                </div>
-            </a>
-        </div>
-    </section>    
-    <hr>
+                <a href="item.php">
+                    <div class="item">
+                        <img src="resources/images/khshirt.jpeg" alt="Kingdom Hearts Tank">
+                        <div class="listing">Heart Kingdom Adventurer Armor</div>
+                    </div>
+                </a>
+            </div>
+        </section>    
+        <hr>
 
     <!--Bottom Nav-->
-        <section class="bottom-nav">
-                
+        <footer class="bottom-nav">
             <ul class="bottom-nav">
-                <li class="bottom-nav"><a href="index.php">Home</a></li>
-                <li class="bottom-nav"><a href="index.php#shop">Shop</a></li>
-                <li class="bottom-nav"><a href="about.php">About</a></li>
-                <li class="bottom-nav"><a href="contact.php">Contact</a></li>
+                    <li class="bottom-nav"><a href="index.php">Home</a></li>
+                    <li class="bottom-nav"><a href="index.php#shop">Shop</a></li>
+                    <li class="bottom-nav"><a href="about.php">About</a></li>
+                    <li class="bottom-nav"><a href="contact.php">Contact</a></li>
             </ul>
             <span>Follow us on social media!
-                <div class="social">
-                <!-- Social Icons -->
-                    <a href="https://www.facebook.com/oneuphandmade" target="_blank">
-                        <i class="fa-brands fa-facebook fa-fw"></i>
-                    </a>
-                    <a href="https://www.instagram.com/oneuphandmade" target="_blank">
-                        <i class="fa-brands fa-instagram fa-fw"></i>
-                    </a>
-                    <a href="https://www.tiktok.com/@oneuphandmade" target="_blank">
-                        <i class="fa-brands fa-tiktok fa-fw"></i>
-                    </a>
-                </div>
-            </span>
-        </section>
-        <!-- Copyright section at bottom right of page -->
-        <small>
-            <p class="copyright">
-                Webpage Designed by Taylor Faber
+                    <div class="social">
+                    <!-- Social Icons -->
+                        <a href="https://www.facebook.com/oneuphandmade" target="_blank">
+                            <i class="fa-brands fa-facebook fa-fw"></i>
+                        </a>
+                        <a href="https://www.instagram.com/oneuphandmade" target="_blank">
+                            <i class="fa-brands fa-instagram fa-fw"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@oneuphandmade" target="_blank">
+                            <i class="fa-brands fa-tiktok fa-fw"></i>
+                        </a>
+                    </div>
+                </span>
+        </footer>
+    <!-- Copyright section at bottom right of page -->
+        <p class="copyright">
+                <small>Webpage Designed by Taylor Faber</small>
             </p>
-        </small>
     </body>
 
 </html>
