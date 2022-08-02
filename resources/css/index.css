@@ -45,33 +45,38 @@ input[type=submit]:hover {
 /*Nav Panel*/
     /*Logo Image*/
     .logo {
-                width: 12.5%;
-                min-width: 90px;
-                max-width: 120px;
-                position: fixed;
-                border-radius: 50%;
-                left: 1.5%;
-                top: 1%;
-                margin: 8px;
-                z-index: 99;
+        width: 12.5%;
+        min-width: 90px;
+        max-width: 120px;
+        position: fixed;
+        border-radius: 50%;
+        left: 1.5%;
+        top: 1%;
+        margin: 8px;
+        z-index: 99;
     }
 
-        section.top-nav {
-                width: 99%;
-                position: fixed;
-                top: 0px;
-                background-color: #FEFEFE;
-                z-index: 98;
+        nav.top-nav {
+            width: 98%;
+            padding: 0.5%;
+            margin: auto;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: #fefefe;
+            z-index: 98;
+            display: flex;
+            justify-content: space-between;
         }
             
             /*Page Links*/
             ul.top-nav {
                 list-style-type: none;
-                display: flex;
+                display: inline-flex;
+                width: fit-content;
                 align-content: row;
                 padding: 30px, 0px;
-                margin-left: 10%;
-                /*eventually add if or coding for min/max ability*/
+                margin-left: 12%;
             }
                 /*Link formating*/
                 li.top-nav a {
@@ -88,20 +93,23 @@ input[type=submit]:hover {
 
             /*Search Bar*/
             .wrapper {
-                position: absolute;
-                top: 16px;
-                right: 64px;
-                display: flex;
-                width: 18%;
-                min-width: 165px;
+                display: inline-flex;
+                justify-content: flex-end;
+                align-content: center;
+                align-self: center;
+                min-width: 190px;
+                width: 20%;
             }
                 .search {
+                    display: inline;
+                    font-size: 0.5em;
                     align-self: center;
                     border: 1px solid grey;
                     border-radius: 50px;
-                    height: 28px;
+                    height: 1.5em;
                     width: 100%;
-                    padding: 2px 2px 2px 12px;
+                    padding: 0.5em 2.3em 0.5em 1em;
+                    margin: 0;
                     outline: 0;
                     background-color: lightgray;
                 }
@@ -110,44 +118,34 @@ input[type=submit]:hover {
                     background-color: white;
                     cursor: text;
                 }
-            /*
-                .clear-icon {
-                    position: absolute;
-                    align-self: center;
-                    right: 38px;
-                    width: 16px;
-                    cursor: pointer;
-                    visibility: hidden;
-                }
-            */
                 .search-icon {
-                    position: absolute;
+                    position: relative;
+                    right: 12.75%;
                     align-self: center;
-                    right: 10px;
-                    width: 24px;
+                    width: fit-content;
+                    color: #383838;
                     cursor: pointer;
             /*eventually add better postioning for cart and search bar*/
             }
             
             /*Cart*/
             .cart {
-                position: absolute;
-                top: 8px;
-                right: 16px;
-                width: 30px;
-                height: 30px;
-                margin: 8px;
-                background: url("../../resources/images/cart.png") no-repeat center;
+                display: inline;
+                position: relative;
+                right: 2.5%;
+                align-self: center;
+                width: fit-content;
+                padding: 4px 4px 2px 4px;
+                color: #383838;
             }
             .cart:hover {
-                position: absolute;
-                top: 8px;
-                right: 16px;
-                width: 30px;
-                height: 30px;
-                margin: 8px;
-                background: url("../../resources/images/carthover.png") no-repeat center;
+                color: #e2b619;
                 cursor:pointer;
+            }
+
+            /*Icon*/
+            .fa-solid {
+                z-index: 99;
             }
     
 /*Main*/

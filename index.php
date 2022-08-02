@@ -25,29 +25,30 @@
         ?>
     
         <!-- Shop Logo -->
-            <nav aria-label="Main">
-                <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
-                    <section class="top-nav">
-                    <!--Nav Links-->
-                        <ul class="top-nav">
-                            <li class="top-nav"><a href="index.php">Home</a></li>
-                            <li class="top-nav"><a href="index.php#shop">Shop</a></li>
-                            <li class="top-nav"><a href="about.php">About</a></li>
-                            <li class="top-nav"><a href="contact.php">Contact</a></li>
-                        </ul>
-                        <!--Search bar-->
-                        <div class="wrapper">
-                            <input class="search" type="text" placeholder="Find Cool Stuff" >
-                <!-- <img class="clear-icon" src="./resources/images/clear.png" alt="search"> -->
-                            <img class="search-icon" src="./resources/images/search.png" alt="search">
-                        </div>
+        <header>
+            <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
+            <nav class="top-nav">
+                <!--Nav Links-->
+                <ul class="top-nav">
+                    <li class="top-nav"><a href="index.php">Home</a></li>
+                    <li class="top-nav"><a href="index.php#shop">Shop</a></li>
+                    <li class="top-nav"><a href="about.php">About</a></li>
+                    <li class="top-nav"><a href="contact.php">Contact</a></li>
+                </ul>
+                <!--Search bar-->
+                <div class="wrapper">
+                    <input class="search" type="text" placeholder="Find Cool Stuff">
+                    <span class="search-icon">
+                        <!--<i class="fa-solid fa-x fa-fw fa-2xs"></i>-->
+                        <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+                    </span>
                     <!--Shopping Cart-->
-                        <a href="cart.php">
-                            <div class="cart" aria-label="Cart">   
-                            </div>
-                        </a>
-                    </section>
+                    <a href="cart.php" class="cart">
+                        <i class="fa-solid fa-cart-shopping fa-1x"></i>
+                    </a>
+                </div>
             </nav>
+        </header>
         <br>
 
     <!-- Logo Banner -->
